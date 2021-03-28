@@ -1,0 +1,19 @@
+{
+    "name": "coda/word-template",
+    "authors": [
+        {
+            "name": "Adao Jose",
+            "email": "adao.jose123.a.r@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^0.17.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Coda\\":"src/wordTemplate",
+            "BD\\":"class/conn"
+        }
+    }
+    
+}
